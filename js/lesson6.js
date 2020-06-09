@@ -113,3 +113,9 @@ function hasEnoughPlayers(team) {
     }
     return false;
 };
+
+var turnMeIntoAString = ["U", "d", "a", "c", "i", "t", "y"];
+console.log(turnMeIntoAString);
+
+console.log(turnMeIntoAString.join());
+console.log(turnMeIntoAString.join(''));
