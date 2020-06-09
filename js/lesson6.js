@@ -24,3 +24,35 @@ console.log(crew);
 for (let i = 0; i < crew.length; i++) {
     console.log(crew[i]);
 }
+
+crew.push("Sondos");
+console.log(crew);
+
+crew.pop();
+console.log(crew);
+
+crew.pop();
+console.log(crew);
+
+var donuts = ["cookies", "cinnamon sugar", "creme de leche"];
+console.log(donuts);
+
+donuts.splice(-2, 0, "chocolate frosted", "glazed");
+console.log(donuts);
+
+
+/*
+ * Programming Quiz: Colors of the Rainbow (6-4)
+ *
+ * Use only the splice() method to modify the rainbow variable:
+ *  - remove "Blackberry"
+ *  - add "Yellow" and "Green"
+ *  - add "Purple"
+ */
+
+var rainbow = ['Red', 'Orange', 'Blackberry', 'Blue'];
+
+// your code goes here
+rainbow.splice(2, 1, "Yellow", "Green");
+rainbow.splice(5, 0, "Purple");
+console.log(rainbow);
