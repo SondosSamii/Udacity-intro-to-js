@@ -155,3 +155,17 @@ test.forEach(function (num, index) {
 });
 
 console.log(test);
+
+var donuts = ["jelly donut", "chocolate donut", "glazed donut"];
+
+var improvedDonuts = donuts.map(function (donut) {
+    donut += " hole";
+    donut = donut.toUpperCase();
+    return donut;
+});
+
+console.log("Donuts Array");
+console.log(donuts);
+console.log("Improved Donuts Array");
+console.log(improvedDonuts);
+
