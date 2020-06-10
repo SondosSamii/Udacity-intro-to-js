@@ -119,3 +119,13 @@ console.log(turnMeIntoAString);
 
 console.log(turnMeIntoAString.join());
 console.log(turnMeIntoAString.join(''));
+
+var donuts = ["jelly donut", "chocolate donut", "glazed donut"];
+console.log(donuts);
+
+donuts.forEach(function (donut) {
+    donut += " hole";
+    donut = donut.toUpperCase();
+    console.log(donut);
+});
+
